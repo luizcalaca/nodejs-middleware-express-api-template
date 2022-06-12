@@ -17,6 +17,4 @@ app.use(bodyParser.json());
 app.use('/people', rescue(routes.peopleRouter))
 app.use(middleware.errorMiddleware)
 
-app.listen(3000, ()=> {
-  console.info('Running on port 3000')
-})
+module.exports = app
