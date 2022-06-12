@@ -1,0 +1,10 @@
+fetch('http://localhost:3000', { 
+   method: 'post', 
+   headers: new Headers({
+        'user-agent': 'Mozilla/4.0 MDN Example',
+        'content-type': 'application/json',
+        'authorization': '564asdf654'
+        'username': 'calaca',
+        'password': '12345'
+   })
+ });
